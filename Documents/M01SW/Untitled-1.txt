@@ -1,0 +1,71 @@
+#include <iostream>
+#include <string>
+#include <algorithm>
+#include <fstream>
+#include <vector>
+using namespace std;
+
+struct task
+{
+    int id;
+    string description;
+    bool completed {false};
+};
+    void completetask (vector<task>& list, int Targetid)
+    {
+        for(auto& t : list)
+        {
+            if(t.id==Targetid)
+            {
+                t.completed=true;
+                cout<<"-> Tâche "<<Targetid<<" marquée comme terminée !\n";
+                return;
+            }
+
+        }
+        cout<<"Tâche avec l'ID"<<Targetid<<"introuvable\n";
+    }
+    int main()
+    {
+        vector<task> Todolist;
+        Todolist.push_back({1, "Apprendre le C++"});
+        Todolist.push_back({2, "Devenir meilleur en programmation"});
+        Todolist.push_back({3, "Faire au minimum trois nouveaux projets"});
+        Todolist.push_back({4, "Trouver un travail, stage ou alternance"});
+        Todolist.push_back({5, "M'améliorier en guitare"});
+        Todolist.push_back({6, "Pouvoir me permettre de m'acheter ma première Seiko"});
+        Todolist.push_back({7, "Devenir meilleur en mathématique"});
+        Todolist.push_back({8, "Devenir meilleur en Physique"});
+        Todolist.push_back({9, "Pouvoir acheter mon premier appartement"});
+        Todolist.push_back({10, "Trouver et développer une idée révolutionnaire"});
+
+        int idchoisi = -1;
+        while(idchoisi !=0)
+        {
+            cout<<"\n===================LISTE DES TÂCHES===================\n";
+
+            for (const auto& t : Todolist)
+        {
+            cout<<"Tache"<<t.id<< ":"<<t.description
+                <<"[Terminee: " <<(t.completed ? "oui" : "non") <<"]\n";
+        }
+        cout<<"\n====================================================\n";
+        cout<<"\nEntrez le numéro de la tâche terminée (ou 0 pour quitter)\n";
+        cin>>idchoisi
+
+        if (idchoisi==0)
+        {
+            cout<<"Au revoir !\n";
+        }
+        else
+        {
+            completetask(Todolist, idchoisi);
+        }
+
+        
+
+        }
+        return 0;
+
+     }
+        

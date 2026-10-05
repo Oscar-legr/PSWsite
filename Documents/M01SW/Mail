@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.CSS" />
+        <meta charset="utf-8"/>
+        <title>PSW Mail</title>
+    </head>
+
+    <body>
+        <section id="liste3">
+            <header class="mon_header">
+                <h1>Mes mots de passes d'adresses mail</h1>
+                <nav>
+                    <a href="presentation.html">Acceuil</a>
+                    <a href="quotidien">quotidien</a>
+                    <a href="Darknet">Darknet</a>
+                    <a href="Mail">Mail</a>
+                </nav>
+                <style>
+                    .mon_header {
+                        
+                        width:100%;
+                    }
+                </style>
+            </header>
+
+            <table>
+                <tr>
+                    <th>Mail</th>
+                    <th>mots de passes</th>
+                </tr>
+
+                <tr>
+                    <td>oscarovitchlegargasson@gmail.com</td>
+                    <td>Julesetoscar2006</td>
+                </tr>
+                <tr>
+                    <td>oscarlunettes@gmail.com</td>
+                    <td>Julesetoscar2006@</td>
+                </tr>
+                <tr>
+                    <td>legargassono@gmail.com</td>
+                    <td>Oscarlegargasson2006@</td>
+                </tr>
+                <tr>
+                    <td>louloutre2006@atomicmail.io</td>
+                    <td>Dark2006@</td>
+                </tr>
+                <tr>
+                    <td>visioreport@yahoo.com</td>
+                    <td>Julesetoscar2006@</td>
+                </tr>
+            </table>
+        </section>
+    </body>
+</html>
+                
