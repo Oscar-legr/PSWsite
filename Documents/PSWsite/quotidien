@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel="stylesheet" href="style.CSS" />
+        <meta charset="utf-8" />
+        <title>PSW quotidien</title>
+    </head>
+    <body>
+        <section id="liste">
+        <header class="mon_header">
+            <h1>Mes mots de passes du quotidien</h1>
+            <nav>
+                <a href="presentation.html">Acceuil</a>
+                <a href="quotidien">quotidien</a>
+                <a href="Darknet">Darknet</a>
+                <a href="Mail">Mail</a>
+            </nav>
+            <style>
+                    .mon_header {
+                        
+                        width:100%;
+                    }
+                </style>
+        </header>
+        <img src="admnistratif.jpg">
+        <table>
+            <tr>
+                <th>Catégories</th>
+                <th>Identifiants</th>
+                <th>Mot de Passe</th>
+            </tr>
+
+                <tr>
+                    <td>Pronote</td>
+                    <td>#####</td>
+                    <td>#####</td>
+                </tr>
+                <tr>
+                    <td>Cantine Ianord</td>
+                    <td>#####</td>
+                    <td>#####</td>
+                </tr>
+                <tr>
+                    <td>Ameli</td>
+                    <td>#####</td>
+                    <td>#####</td>
+                </tr>
+                <tr>
+                    <td>Apple</td>
+                    <td>#####</td>
+                    <td>#####</td>
+                </tr>
+                <tr>
+                    <td>CIC</td>
+                    <td>#####</td>
+                    <td>#####</td>
+                </tr>
+                <tr>
+                    <td>Deezer</td>
+                    <td>#####</td>
+                    <td>#####</td>
+                </tr>
+                <tr>
+                    <td>Diplome.gouv</td>
+                    <td>#####</td>
+                    <td>#####</td>
+                </tr>
+                <tr>
+                    <td>Education.gouv</td>
+                    <td>#####</td>
+                    <td>#####</td>
+                </tr>
+                <tr>
+                    <td>Etudiant.gouv</td>
+                    <td>#####</td>
+                    <td>#####</td>
+                </tr>
+                <tr>
+                    <td>Fitnesspark</td>
+                    <td>#####</td>
+                    <td>#####</td>
+                </tr>
+                <tr>
+                    <td>Île de France Mobilité</td>
+                    <td>#####</td>
+                    <td>#####</td>
+                </tr>
+                <tr>
+                    <td>Navigo.fr</td>
+                    <td>#####</td>
+                    <td>#####</td>
+                </tr>
+                <tr>
+                    <td>Ubisoft</td>
+                    <td>#####</td>
+                    <td>#####</td>
+                </tr>
+
+        </table>
+        </section>
+    </body>
+
+</html>
